@@ -1,0 +1,213 @@
+:root {
+    //Background
+    --lx-bgc-p: #ffffff;
+    --lx-bgc-s: #f4f4f4;
+
+    //Font
+    --lx-font-p: #37352f;
+    --lx-font-s: #878682;
+
+    //Gray
+    --lx-gray-color: #878682;
+    --lx-gray-bgc: #ebeced;
+
+    //Brown
+    --lx-brown-color: #64473a;
+    --lx-brown-bgc: #e9e5e3;
+
+    //Orange
+    --lx-brown-color: #d9730d;
+    --lx-brown-bgc: #faebdd;
+
+    //Yellow
+    --lx-brown-color: #dfab01;
+    --lx-brown-bgc: #fbf3db;
+
+    //Green
+    --lx-brown-color: #0f7b6c;
+    --lx-brown-bgc: #ddedea;
+
+    //Blue
+    --lx-brown-color: #0b6e99;
+    --lx-brown-bgc: #ddebf1;
+
+    //Purple
+    --lx-brown-color: #6940a5;
+    --lx-brown-bgc: #eae4f2;
+
+    //Pink
+    --lx-brown-color: #ad1a72;
+    --lx-brown-bgc: #f4dfeb;
+
+    //Red
+    --lx-brown-color: #e03e3e;
+    --lx-brown-bgc: #fbe4e4;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        //Background
+        --lx-bgc-p: #ffffff;
+        --lx-bgc-s: #f4f4f4;
+    
+        //Font
+        --lx-font-p: #37352f;
+        --lx-font-s: #878682;
+    
+        //Gray
+        --lx-gray-color: #878682;
+        --lx-gray-bgc: #ebeced;
+    
+        //Brown
+        --lx-brown-color: #64473a;
+        --lx-brown-bgc: #e9e5e3;
+    
+        //Orange
+        --lx-orange-color: #d9730d;
+        --lx-orange-bgc: #faebdd;
+    
+        //Yellow
+        --lx-yellow-color: #dfab01;
+        --lx-yellow-bgc: #fbf3db;
+    
+        //Green
+        --lx-green-color: #0f7b6c;
+        --lx-green-bgc: #ddedea;
+    
+        //Blue
+        --lx-blue-color: #0b6e99;
+        --lx-blue-bgc: #ddebf1;
+    
+        //Purple
+        --lx-purple-color: #6940a5;
+        --lx-purple-bgc: #eae4f2;
+    
+        //Pink
+        --lx-pink-color: #ad1a72;
+        --lx-pink-bgc: #f4dfeb;
+    
+        //Red
+        --lx-red-color: #e03e3e;
+        --lx-red-bgc: #fbe4e4;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        //Background
+        --lx-bgc-p: #2f3437;
+        --lx-bgc-s: #383D41;
+    
+        //Font
+        --lx-font-p: #EAEBEB;
+        --lx-font-s: #ACAEAF;
+    
+        //Gray
+        --lx-gray-color: #ACAEAF;
+        --lx-gray-bgc: #454b4e;
+    
+        //Brown
+        --lx-brown-color: #937264;
+        --lx-brown-bgc: #434040;
+    
+        //Orange
+        --lx-orange-color: #ffa344;
+        --lx-orange-bgc: #594a3a;
+    
+        //Yellow
+        --lx-yellow-color: #ffdc49;
+        --lx-yellow-bgc: #59563b;
+    
+        //Green
+        --lx-green-color: #4dab9a;
+        --lx-green-bgc: #354c4b;
+    
+        //Blue
+        --lx-blue-color: #529cca;
+        --lx-blue-bgc: #364954;
+    
+        //Purple
+        --lx-purple-color: #9a6dd7;
+        --lx-purple-bgc: #443f57;
+    
+        //Pink
+        --lx-pink-color: #e255a1;
+        --lx-pink-bgc: #533b4c;
+    
+        //Red
+        --lx-red-color: #ff7369;
+        --lx-red-bgc: #594141;
+    }
+}
+
+//Gray
+.lx-gray-color{
+    color: var(--lx-gray-color);
+}
+.lx-gray-bgc{
+    background-color: var(--lx-gray-bgc); 
+}
+
+//Brown
+.lx-brown-color{
+    color: var(--lx-brown-color);
+}
+.lx-brown-bgc{
+    background-color: var(--lx-brown-bgc); 
+}
+
+//Orange
+.lx-orange-color{
+    color: var(--lx-orange-color);
+}
+.lx-orange-bgc{
+    background-color: var(--lx-orange-bgc); 
+}
+
+//Yellow
+.lx-yellow-color{
+    color: var(--lx-yellow-color);
+}
+.lx-yellow-bgc{
+    background-color: var(--lx-yellow-bgc); 
+}
+
+//Green
+.lx-green-color{
+    color: var(--lx-green-color);
+}
+.lx-green-bgc{
+    background-color: var(--lx-green-bgc); 
+}
+
+//Blue
+.lx-blue-color{
+    color: var(--lx-blue-color);
+}
+.lx-blue-bgc{
+    background-color: var(--lx-blue-bgc); 
+}
+
+//Purple
+.lx-purple-color{
+    color: var(--lx-purple-color);
+}
+.lx-purple-bgc{
+    background-color: var(--lx-purple-bgc); 
+}
+
+//Pink
+.lx-pink-color{
+    color: var(--lx-pink-color);
+}
+.lx-pink-bgc{
+    background-color: var(--lx-pink-bgc); 
+}
+
+//Red
+.lx-red-color{
+    color: var(--lx-red-color);
+}
+.lx-red-bgc{
+    background-color: var(--lx-red-bgc); 
+}
